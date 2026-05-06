@@ -105,6 +105,9 @@ export default function SiteFooter() {
               Made with <Heart className="w-5 h-5 text-primary fill-primary" /> for students, by students
             </p>
           </div>
+          <p className="text-background/50 text-sm text-center mt-4">
+            Zuoquan, Evans
+          </p>
         </div>
       </div>
     </footer>

@@ -48,19 +48,14 @@ export default function HeroSection() {
               </a>
             </div>
 
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full w-fit">
-              <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-              <span className="text-sm font-medium text-foreground">Recruiting Fall 2025</span>
-            </div>
-            
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-[1.1] text-balance">
+<h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-[1.1] text-balance">
               Bringing Fun
               <br />
               <span className="text-primary">to Finance</span>
             </h1>
             
             <p className="text-lg lg:text-xl text-muted-foreground max-w-lg leading-relaxed text-pretty">
-              Singapore&apos;s women-first student community exploring VC, consulting, and finance.
+              Singapore&apos;s student community exploring VC, consulting, and finance.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -87,12 +82,12 @@ export default function HeroSection() {
             {/* Stats */}
             <div className="flex gap-8 pt-4">
               <div>
-                <p className="text-3xl lg:text-4xl font-bold text-foreground">150+</p>
+                <p className="text-3xl lg:text-4xl font-bold text-foreground">500+</p>
                 <p className="text-sm text-muted-foreground">Members</p>
               </div>
               <div className="w-px bg-border" />
               <div>
-                <p className="text-3xl lg:text-4xl font-bold text-foreground">30+</p>
+                <p className="text-3xl lg:text-4xl font-bold text-foreground">15+</p>
                 <p className="text-sm text-muted-foreground">Partners</p>
               </div>
               <div className="w-px bg-border" />

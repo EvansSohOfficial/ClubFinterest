@@ -19,7 +19,7 @@ export default function PartnerShowcase() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="relative w-full max-w-5xl mx-auto">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Sponsors-Ug8o8IATh9J55NoteRILFUBpN1oYOk.png"
+            src="/Sponsors.png"
             alt="Our Partners - Protégé Ventures, OpenSpace Capital, Women in VSEA, Sigma Squared, Seedly, CMT Digital, Earlybird, Empower2Free, Atlas Annotate, Paragon Capital Management, The Collective, SVCA, The Generative Beings, iGlobe Partners, Notion, NUS Enterprise, Beyond Earth Ventures"
             width={1568}
             height={856}

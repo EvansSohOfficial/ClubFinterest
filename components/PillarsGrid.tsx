@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Rocket, Coffee, Sparkles, Users, ArrowRight } from "lucide-react";
+import { Rocket, Coffee, Sparkles, Users } from "lucide-react";
 
 const pillars = [
   {
@@ -68,7 +68,7 @@ export default function PillarsGrid() {
             return (
               <div
                 key={pillar.id}
-                className="group relative bg-card rounded-2xl p-8 border border-border transition-all duration-300 hover:shadow-xl hover:shadow-black/5 hover:-translate-y-1 cursor-pointer overflow-hidden"
+                className="group relative bg-card rounded-2xl p-8 border border-border transition-all duration-300 hover:shadow-xl hover:shadow-black/5 hover:-translate-y-1 overflow-hidden"
                 onMouseEnter={() => setHoveredId(pillar.id)}
                 onMouseLeave={() => setHoveredId(null)}
               >
@@ -106,11 +106,6 @@ export default function PillarsGrid() {
                     ))}
                   </div>
 
-                  {/* Learn More */}
-                  <div className={`flex items-center gap-2 text-primary font-medium transition-all duration-300 ${isHovered ? "translate-x-2" : ""}`}>
-                    <span>Learn more</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </div>
                 </div>
               </div>
             );

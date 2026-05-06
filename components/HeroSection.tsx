@@ -60,7 +60,7 @@ export default function HeroSection() {
             </h1>
             
             <p className="text-lg lg:text-xl text-muted-foreground max-w-lg leading-relaxed text-pretty">
-              Singapore&apos;s women-first student community exploring VC, consulting, and finance.
+              Singapore&apos;s student community exploring VC, consulting, and finance.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
